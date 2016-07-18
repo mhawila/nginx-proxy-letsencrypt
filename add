@@ -1,5 +1,7 @@
 #!/bin/bash
-CONFIG_FILE=config.env
+# Put the absolute path of CONFIG_FILE variable below if you are not going to run this
+# this script from the containing folder
+CONFIG_FILE=/path/to/config.env
 
 display_usage() {
 	echo "Add a docker container at a given domain. This will run the image"
